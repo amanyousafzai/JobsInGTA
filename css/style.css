@@ -103,6 +103,20 @@
         top: 50%;
         margin-left: 35%;
     }
+    .JoinUssection{
+        width: 390px;
+        height: 54px;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 85%;
+        margin-left: 42%;
+        padding-top: 2px;
+    }
     .popularsearches{
         
         position: absolute;
@@ -115,6 +129,53 @@
         margin-left: 48%;
         font-size: 20px;
         /* z-index: 9; */
+    }
+    .JoinUS{
+        
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 80%;
+        margin-left: 48%;
+        font-size: 20px;
+        /* z-index: 9; */
+    }
+    .joinUsEmpButton{
+        width: 189px;
+        height: 44px;
+        margin-left: -8.5%;
+        background-color: #0d2145;
+        border: none;
+        color: white;
+        padding: 0;
+       
+    }
+    .joinUsJObseekerButtons{
+        width: 189px;
+        height: 44px;
+        /* margin-left: -15%; */
+        background-color: #0d2145;
+        border: none;
+        color: white;
+        padding: 0;
+        margin: auto;
+    }
+
+
+     
+    
+    
+    
+    .joinUsEmpButton:hover{
+        background-color: #F79420;
+        border-radius: 20px;
+    }
+    .joinUsJObseekerButtons:hover{
+        background-color: #F79420;
+        border-radius: 20px;
     }
     .popsearchbuttons{
         width: 50%;
